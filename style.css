@@ -143,3 +143,11 @@ footer>img{
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
+.attribution {
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+}
+.attribution a {
+    color: hsl(171, 66%, 44%);
+}
