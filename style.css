@@ -1,1 +1,145 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&family=Barlow+Semi+Condensed:wght@200;300;400;500;600;700&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Karla:wght@400;500;600;700&family=Kumbh+Sans:wght@400;500;600;700&family=Lexend+Deca:wght@100;200;300;400&family=Outfit:wght@100;300;400;600&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800;900&family=Red+Hat+Display:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&display=swap');
+body{
+    background-image: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 380px;
+    height: 710vh;
+    font-family: "Bai Jamjuree", sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header>img{
+    width: 35%;
+    margin-bottom: 4.5rem;
+    margin-top: 7rem;
+}
+section{
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 17px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 25px;
+}
+section>span{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35px;
+}
+.buttons{
+    margin-top: 3.5rem;
+    margin-bottom: 8rem;
+}
+.button{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    width: 300px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.button:first-child{
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: solid hsl(171, 60%, 37%);
+    box-shadow: 0px 5px 20px 0px hsl(172, 65%, 79%);
+}
+.button:last-child{
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: solid hsl(233, 90%, 60%);
+    box-shadow: 0px 5px 20px 0px hsl(233, 95%, 86%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.computer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.computer-section>img{
+    width: 320px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.computer-section section>span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.computer-section section{
+    margin-bottom: 3rem;
+}
+main>section>span{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+}
+main>img{
+    width: 360px;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+.utilities{
+    margin-top: 6rem;
+}
+.utilities section{
+    margin-bottom: 5rem;
+}
+.utilities section>img{
+    margin-bottom: 2rem;
+}
+.utilities section>span{
+    font-size: 23px;    
+}
+.entreprises{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+}
+.entreprises img{
+    width: 120px;
+    margin-bottom: 5rem;
+}
+
+
+footer{
+    background-color: hsl(0, 0%, 94%);
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 50px;
+    color: hsl(210, 10%, 33%);
+    font-weight: 400;
+    font-size: 18px;
+}
+footer>img{
+    width: 60px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.colone{
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
