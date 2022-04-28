@@ -17,7 +17,6 @@ header{
     align-items: center;
 }
 header>img{
-    width: 35%;
     margin-bottom: 4.5rem;
     margin-top: 7rem;
 }
@@ -150,4 +149,92 @@ footer>img{
 }
 .attribution a {
     color: hsl(171, 66%, 44%);
+}
+
+@media screen and (min-width: 1024px){
+    body{
+        background-image: url(./images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: 1450px;
+        height: 510vh;
+    }
+    section{
+        font-weight: 400;
+        font-size: 19px;    
+        padding-left: 0rem;
+        padding-right: 0rem;
+        width: 730px;
+        line-height: 35px;
+    }
+    section>span{
+        font-size: 46px;
+        line-height: 35px;
+        font-weight: 600;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-around;
+        width: 500px;
+    }
+    .button{
+        width: 230px;
+    }
+    #first-parag{
+        font-size: 21px;
+    }
+
+    .computer-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+        margin-bottom: 6rem;
+    }
+    .computer-section>img{
+        width: 800px;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-right: 2rem;
+    }
+    .computer-section section>span{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .computer-section section{
+        margin-bottom: 3rem;
+        text-align: start;
+        margin-left: 5rem;
+        margin-right: 15rem;
+        width: 400px;
+    }
+    main>img{
+        width: 960px;
+        margin-top: 3rem;
+        margin-bottom: 6rem;
+    }
+    main>section{
+        margin-bottom: 2rem;
+    }
+    main>section>span{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .utilities{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
+    }
+    .utilities section{
+        width: 400px;
+        margin-bottom: 0rem;
+        font-size: 18px;
+    }
+    .utilities section>span{
+        font-size: 24px;
+        font-weight: 600;    
+    }
+    .utilities section>img{
+        margin-bottom: 2rem;
+    }    
 }
