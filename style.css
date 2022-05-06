@@ -60,6 +60,12 @@ section>span{
     border-bottom: solid hsl(233, 90%, 60%);
     box-shadow: 0px 5px 20px 0px hsl(233, 95%, 86%);
 }
+.button:first-child:hover{
+    background-color: hsl(171, 50%, 58%);
+}
+.button:last-child:hover{
+    background-color: hsl(233, 90%, 72%);
+}
 
 main{
     display: flex;
@@ -156,7 +162,7 @@ footer>img{
         background-image: url(./images/bg-header-desktop.png);
         background-repeat: no-repeat;
         background-size: 1450px;
-        height: 510vh;
+        height: 420vh;
     }
     section{
         font-weight: 400;
@@ -221,8 +227,9 @@ footer>img{
         font-weight: 600;
     }
     .utilities{
+        width: 1400px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 5rem;
     }
     .utilities section{
@@ -235,6 +242,56 @@ footer>img{
         font-weight: 600;    
     }
     .utilities section>img{
+        margin-bottom: 0rem;
+        width: 8%;
+    }  
+    .entreprises{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 1200px;
+        margin-top: 8rem;
+        margin-bottom: 7rem;
+    }
+    footer{
+        width: 1440px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        line-height: 50px;
+        text-align: start;
+        position: relative;
+    }
+    footer>img{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 9rem;
+        margin-right: 9rem;
+    }
+    .colone{
+        margin: auto;
+    }
+    #install-guide{
+        margin-bottom: 5rem;
+        height: fit-content;
+    }
+    .social-media{
+        display: flex;
+        justify-content: space-around;
+        width: 140px;
+        margin-top: 4rem;
         margin-bottom: 2rem;
-    }    
+        margin-right: 9rem;
+        margin-left: 8rem;
+    }
+    .attribution {
+        font-size: 16px;
+        text-align: center;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+        left: 450px;
+    }
+    
 }
